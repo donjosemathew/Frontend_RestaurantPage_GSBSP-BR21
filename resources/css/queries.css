@@ -19,8 +19,18 @@
         margin-left: 10%;
     }
     
-
-
+    .boxview{
+        height: auto;
+    }
+    .boxview:hover{
+        height: auto;
+    }
+    
+    .container{
+        width:70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 /* Small phones to small tablets */
 @media only screen and (max-width: 767px) {
     body { font-size: 16px; }
@@ -51,7 +61,25 @@
         margin-right: auto;
         transform: translate(-50%,0);
     }
-   
+    .container {
+        width:90%;
+    }
+    .shefs img{
+        width:60%;
+    }
+    .dish-container {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height:500px;
+    }
+   .dishes .more{
+    width: 45%;
+    margin:30px 22.5% 20px 22.5%;
+}
+    header .btn{
+        margin-top: 10px;
+    }
 }
 /* Small phones*/
 @media only screen and (max-width: 480px) {
@@ -60,4 +88,14 @@
     .main-menu li{
     display: none;
         }
+    .dish-container {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height:350px;
+    }
+   .dishes .more{
+    width: 45%;
+    margin:30px 22.5% 20px 22.5%;
+
 }
