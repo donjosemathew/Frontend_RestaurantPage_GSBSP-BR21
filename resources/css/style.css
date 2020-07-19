@@ -328,6 +328,7 @@ cite img{
     margin-left: 5%;
 }
 .dish-container:hover{
+    -webkit-box-shadow: 0 1px 3px #acacac;
     box-shadow: 0 1px 3px #acacac;
 }
 
@@ -338,6 +339,7 @@ cite img{
 .dishes img {
     width:90%;
     height:auto;
+    -ms-flex-item-align: center;
     align-self: center;
     border-radius: 5px;
     margin:5%;
@@ -346,6 +348,7 @@ cite img{
 .dish-container .row{
     width: 100%;
     -ms-flex-item-align: center;
+    -ms-flex-line-pack: center;
     align-content: center;
     display: inline-block;
     padding: 0;
@@ -384,4 +387,140 @@ cite img{
     -ms-flex-line-pack: center;
     align-content: center;
     margin-bottom: 20px;
+}
+/*Form and Location */
+.form-container {
+    width: 70%;
+    margin: 10px 15%;
+    display: block;
+    background-color:#d8d8d8;
+}
+
+form i {
+    color: #fff;
+    height: 90%;
+    font-size: 160%;
+    margin: 5% 10px ;
+}
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+*:focus {outline: none;}
+address {
+    width: 80%;
+    margin: 20px 10%;
+    font-size: 110%;
+    
+}
+
+.contact-us img {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.contact-us .btn {
+    width: 50%;
+    margin: 20px 25%;
+    font-size: 110%;
+    
+}
+/*footer*/
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-nav{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited, 
+.social-nav li a:link,
+.social-nav li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.social-nav li a:link,
+.social-nav li a:visited {
+    font-size: 160%;
+}
+
+.ion-logo-facebook,
+.ion-logo-twitter,
+.ion-logo-youtube,
+.ion-logo-instagram {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.ion-logo-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-logo-twitter:hover {
+    color: #00aced;
+}
+
+.ion-logo-youtube:hover {
+    color: #dd4b39;
+}
+
+.ion-logo-instagram:hover {
+    color: #517fa4;
+}
+
+
+footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Animations*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated {
+    opacity: 1;
 }
