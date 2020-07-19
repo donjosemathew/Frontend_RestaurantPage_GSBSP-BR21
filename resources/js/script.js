@@ -29,9 +29,15 @@ $(document).ready(function() {
     $('.js--scroll-to-plans').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-plans').offset().top}, 1000); 
     });
+    $('.js--scroll-to-team').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-team').offset().top}, 1000); 
+    });
     
     $('.js--scroll-to-start').click(function () {
        $('html, body').animate({scrollTop: $('.js--section-features').offset().top}, 1000); 
+    });
+    $('.js--scroll-to-food').click(function () {
+       $('html, body').animate({scrollTop: $('.js--section-food').offset().top}, 1000); 
     });
     
     

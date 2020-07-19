@@ -91,6 +91,7 @@ header{
     background-attachment: fixed;
 }
 
+
 .hero-text-box {
     position: absolute;
     width:1140px;
@@ -99,6 +100,7 @@ header{
     -webkit-transform: translate(-50%,-50%);
     transform: translate(-50%,-50%);
 }
+
 .logo{
     height:90px;
     width: auto;
@@ -523,4 +525,30 @@ footer p {
 .js--wp-2.animated,
 .js--wp-3.animated {
     opacity: 1;
+}
+/*dishes*/
+.header-dish{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: fixed;
+}
+.hero-text-box-dishes {
+    position: absolute;
+    width:1140px;
+    top:30%;
+    left:50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.colorwh {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.colorwh h2{
+    color: white;
 }

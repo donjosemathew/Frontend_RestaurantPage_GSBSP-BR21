@@ -3,6 +3,9 @@
     .hero-text-box {
         width: 100%;
         padding: 0 2%;
+    }.hero-text-box-dishes {
+        width: 100%;
+        padding: 0 2%;
     }
     
     .row { padding: 0 2%; }
